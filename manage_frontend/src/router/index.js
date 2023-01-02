@@ -9,8 +9,8 @@ Vue.use(Router)
 export default new Router({
     routes: [{
             path: '/',
-            name: 'Home',
-            component: Home
+            name: 'Login',
+            component: Login
         },
         {
             path: '/Register',
@@ -18,7 +18,7 @@ export default new Router({
             component: Register
         },
         {
-            path: '/',
+            path: '/Home',
             name: 'Home',
             component: Home
         }
