@@ -1,0 +1,22 @@
+{
+    "app_name": "manage_backend",
+    "app_model": "debug",
+    "app_host": "localhost",
+    "app_port": "9090",
+    "database": {
+        "driver": "mysql",
+        "host": "127.0.0.1",
+        "port": 3306,
+        "user": "root",
+        "password": "123456",
+        "db_name": "Achievement_Management",
+        "charset": "utf8",
+        "show_sql": false
+    },
+    "redis_config": {
+        "addr": "127.0.0.1",
+        "port": 6379,
+        "password": "123456",
+        "db": 0
+    }
+}
